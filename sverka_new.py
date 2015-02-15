@@ -50,10 +50,10 @@ for x in range(len(a0)):
 
 print ('Шаг 2: Поиск лишних договоров в списке БУХГАЛТЕРИЯ')        
 
-buh_lost.write('Поиск лишних договоров в списке БУХГАЛТЕРИИ \n')
+buh_lost.write('Поиск лишних договоров в списке БУХГАЛТЕРИЯ \n')
 for x in range(len(b0)):
     if b0[x] not in a0:
-        pco_lost.write(b0[x]+";"+b1[x]+";"+b2[x])
+        buh_lost.write(b0[x]+";"+b1[x]+";"+b2[x])
 
 print ('Завершено')
 print ('Обработано записей БУХГАЛТЕРИЯ '+str(len(b_data)))
